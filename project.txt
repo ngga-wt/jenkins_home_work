@@ -1,0 +1,11 @@
+In Jenkins: Create pipeline that triggered by push/commit in Github
+    Create docker-image from Dockerfile and run it with a custom name (use env).
+    (Check if no container with this name)
+
+    After 20 second check
+      if container finished - Print that test run success 
+      if  container is continue running :
+	      Kill this container
+	      Print that test failed 
+
+    DockerImage: run some bash script that send it sleep for 10 second
