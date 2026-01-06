@@ -1,12 +1,12 @@
 pipeline {
     agent any
     stages {
-        stage('Hello') {
+        stage('First Test') {
             steps {
                 echo 'Hello World'
             }
         }
-        stage('Hello test') {
+        stage('Second Test') {
             steps {
                 echo 'test github commit trigger again'
             }
