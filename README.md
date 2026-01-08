@@ -1,3 +1,3 @@
-# jenkins-docker_git project
+# jenkins-git_homework
 
-# Project Descriptions 
+Project Descriptions goes here and now shuld work fine
